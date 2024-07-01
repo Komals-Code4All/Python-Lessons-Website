@@ -1,5 +1,22 @@
+
+
+:root {
+  --bgColorMain : steelblue;
+  --bgColorSub : darkslateblue;
+}
+
+* {
+  top: 0;
+  left: 0px;
+  vertical-align: top;
+  background-color: var(--bgColorMain);
+  color: white;
+}
+
+
+
 body {
-    background-color: whitesmoke;
+    background-color: ghostwhite;
     font-family: "Times New Roman", Times, serif;
   }
   
