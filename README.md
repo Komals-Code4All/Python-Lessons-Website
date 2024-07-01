@@ -1,7 +1,5 @@
 # Python Lessons' Website 
 
-<hr />
-
 ## Getting Started
 
 - Installing Python
@@ -16,3 +14,4 @@
 - IF Conditions
 - Functions
 
+<hr >
