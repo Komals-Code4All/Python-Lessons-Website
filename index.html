@@ -4,33 +4,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" type="image/x-icon" href="stdFiles/favicon.ico" />
     <title>Code4All</title>
+
+
   </head>
   <body>
+
     <!-- insert standard header -->
     <embed type="text/html" src="assets/stdFiles/stdHeader.html" width="100%" />
 
-<nav>
-  <ul>
-    <li><a href="assets/lessons/L00-python.html" target="iframe_a">Introduction</a></li>
-    <li><a href="assets/lessons/L01-python.html" target="iframe_a">Lesson 1</a></li>
-    <li><a href="assets/lessons/L02-python.html" target="iframe_a">Lesson 2</a></li>
-    <li><a href="assets/lessons/L03-python.html" target="iframe_a">Lesson 3</a></li>
-    <li><a href="assets/lessons/L04-python.html" target="iframe_a">Lesson 4</a></li>
-    <li><a href="assets/lessons/L05-python.html" target="iframe_a">Lesson 5</a></li>
-    <li><a href="assets/lessons/L06-python.html" target="iframe_a">Lesson 6</a></li>
- </ul>
-
-</nav>
+    <nav id="navbar"></nav> <!-- built and inserted by JavaScript -->
 
     <main>
       <iframe name="iframe_a" src="assets/lessons/L00-python.html" title="Lessons" ></iframe> 
-      
     </main>
 
     <!-- insert standard footer -->
     <!-- <embed type="text/html" src="assets/stdFiles/stdFooter.html" width="100%" "/>  -->
+
+    <script src="assets/javascript/buildNavbar.js" defer></script>
+
   </body>
 </html>
